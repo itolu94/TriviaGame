@@ -1,0 +1,62 @@
+
+/*We need to fix the background so that it only covers the outer right and left side of the page*/
+body {
+	background-image: url(../images/nba-teams.png);
+	position: relative;
+	background-size: cover;
+}
+
+html {
+	min-height: 
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+
+.usersChoices:hover {
+	background-color: red;
+
+}
+
+/*background for the div boxes that affect the background*/
+.nbaTeamsBackground{
+	height: 100%;
+}
+
+/*Mainly used to push the footer down to the bottom*/
+.container {
+	margin-bottom: 91px;
+	height: 100%;
+}
+
+/*used for the section that contains content the user is intended to see*/
+.whiteBackgroun {
+	background-color: white;
+}
+
+/*NBA logo in nav bar */
+#nbaLogo {
+	height: 30px;
+	width: auto;
+}
+
+#question {
+	font-size: 30px;
+}
+
+img {
+	height: 230px;
+}
+
+
+/*footer styling*/
+#footer {
+    position: absolute;
+    background-color: grey;
+    border-top: 8px solid white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 230px;
+}
