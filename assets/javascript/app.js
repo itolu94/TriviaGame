@@ -138,7 +138,7 @@ function displayQuestion() {
 
 // Count down for the timer
 function startTimer() {
-    timer = 100;
+    timer = 30;
     intervalId = setInterval(decrement, 1000);
 
 }
@@ -156,7 +156,6 @@ function decrement() {
 
 
 function incorrectGuess() {
-    console.log("Sorry, you done messed up!");
     incorrectAnswers++
     indexHolder++;
     $('#question').text("Incorrect")
@@ -172,7 +171,6 @@ function incorrectGuess() {
 
 
 function correctGuess() {
-    console.log("Correct Answer");
     correctAnswers++;
     indexHolder++;
     $('#question').text("Correct")

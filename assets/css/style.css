@@ -72,6 +72,7 @@ img {
 /*footer styling*/
 #footer {
     position: absolute;
+    bottom: 0;
     background-color: #701d11;
     border-top: 1px solid white;
     width: 100%;
